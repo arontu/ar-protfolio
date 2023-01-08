@@ -220,6 +220,36 @@ nav {
     font-size: 18px;
 }
 
-.btn-cv{
+.btn-cv {
     text-align: center;
+}
+
+/* footer */
+.footer-menu {
+    display: flex;
+    gap: 100px;
+    background-color: rgb(252, 226, 252);
+    padding: 130px 200px;
+}
+
+.footer-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.footer-p{
+    margin-bottom: 30px;
+}
+
+.footer-right input[type="text"], input[type="email"], textarea{
+    margin-bottom: 20px;
+    border: 0;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+input{
+    height: 20px;
 }
