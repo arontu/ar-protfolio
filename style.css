@@ -129,7 +129,9 @@ nav {
     justify-content: space-around;
 }
 
-.ab-info{}
+.ab-info{
+    margin-left: 5px;
+}
 
 .info-title {
     font-weight: 400;
@@ -142,4 +144,13 @@ nav {
     font-size: 20px;
     color: #474747;
 
+}
+
+/* what i do  */
+
+.whati{
+    margin: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
 }
