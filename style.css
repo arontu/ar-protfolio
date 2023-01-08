@@ -35,10 +35,11 @@
 /* header and nav */
 .header{
     background: white;
-    background-image: url('./images/header-bg.png'), url('./images/developer.png');
+    background-image: url('./images/header-bg1.png'), url('./images/developer.png');
     background-repeat: no-repeat;
     background-position: cover,left ;
     background-size: auto, 85px;
+    overflow: hidden;
    
 }
 nav {
