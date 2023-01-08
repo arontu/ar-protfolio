@@ -114,6 +114,7 @@ nav {
     font-size: 35px;
     margin-bottom: 30px;
     color: #181818;
+    text-align: center;
 }
 
 .sec-dep {
@@ -134,13 +135,13 @@ nav {
 }
 
 .info-title {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     color: #757575;
 }
 
 .info-des {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
     color: #474747;
 
@@ -158,15 +159,67 @@ nav {
 /* skills  */
 .my-skills {
     display: flex;
-    gap: 25px ;
+    gap: 25px;
     background: #FFFFFF;
 }
 
-.skill {}
+.skill {
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding: 30px;
+}
 
 .skill-title {
     font-weight: 700;
     font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-.skill-dec {}
+.skill-dec {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* summry */
+.summry {
+    margin: 130px;
+}
+
+.expar {
+    display: flex;
+    gap: 25px;
+}
+
+.exper {
+    color: #474747;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.extitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.exsub {
+    color: #757575;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.exp {
+    color: #757575;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.btn-cv{
+    text-align: center;
+}
