@@ -129,7 +129,7 @@ nav {
     justify-content: space-around;
 }
 
-.ab-info{
+.ab-info {
     margin-left: 5px;
 }
 
@@ -148,9 +148,25 @@ nav {
 
 /* what i do  */
 
-.whati{
+.whati {
     margin: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     text-align: center;
 }
+
+/* skills  */
+.my-skills {
+    display: flex;
+    gap: 25px ;
+    background: #FFFFFF;
+}
+
+.skill {}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.skill-dec {}
