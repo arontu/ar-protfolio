@@ -1,0 +1,46 @@
+/* bacic css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-color {
+    color: orangered;
+    text-transform: uppercase;
+}
+
+.btn-nav {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: orangered;
+}
+
+/* header and nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+/* list */
+.hnav ul {
+    display: flex;
+    align-items: center;
+}
+
+.hnav li {
+    list-style: none;
+    margin-left: 50px;
+}
