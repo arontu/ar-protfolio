@@ -21,7 +21,26 @@
     background: orangered;
 }
 
+.btn-contact {
+    color: orangered;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid  orangered ;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
 /* header and nav */
+.header{
+    background: white;
+    background-image: url('./images/header-bg.png'), url('./images/developer.png');
+    background-repeat: no-repeat;
+    background-position: cover,left ;
+    background-size: auto, 85px;
+   
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -43,4 +62,30 @@ nav {
 .hnav li {
     list-style: none;
     margin-left: 50px;
+}
+
+/* banner  */
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-top: 5px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.bannerp {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
 }
